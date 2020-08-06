@@ -12,11 +12,17 @@
 
 	--previewBG: rgb(251, 249, 243, 0.8);
 	--previewShadow: #F0EAD6;
+
+	--buttonColor: #000;
 }
 
 html, body {
 	margin: 0;
 	padding: 0;
+}
+
+body * {
+	transition: 0.3s;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -98,6 +104,10 @@ h6 { font-size: 16px; }
 #navigation {
 	margin: 0;
 	padding: 10px;
+}
+
+#navigation a {
+	color: var(--mainText);
 }
 
 #navigation li {
@@ -223,6 +233,106 @@ h6 { font-size: 16px; }
 #corner-br {
 	bottom: -5px;
 	right: -5px;
+}
+
+.about-wrapper {
+	display: grid;
+	/* 320px ??? */
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+	padding: 50px 0;
+	gap: 100px;
+}
+
+#skills {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: var(--previewShadow);
+}
+
+.social-links {
+	display: grid;
+	align-content: center;
+	text-align: center;
+}
+
+#social-img {
+	width: 100%;
+}
+
+.post-wrapper {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(auto-fit, 320px);
+	justify-content: center; 
+	padding-bottom: 50px;
+}
+
+.post {
+	border: 1px solid var(==borderColor);
+	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+
+}
+
+.thumbnail {
+	display: block;
+	height: 180px;
+	object-fit: cover;
+	width: 100%;
+}
+
+.post-preview {
+	background-color: #FFF;
+	padding: 15PX;
+}
+
+.post-title {
+	color: black;
+	margin: 0;
+}
+
+.post-intro {
+	color: #4B5256;
+	font-size: 16px;
+}
+
+#contact-form {
+	background-color: var(--mainColor);
+	border: 1px solid var(--mainColor);
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	max-width: 600px;
+	padding: 15px;
+}
+
+#contact-form label { line-height: 2.7em; }
+
+#contact-form textarea {
+	font-size: 14px;
+	min-height: 100px;
+}
+
+
+
+#submit-btn {
+	background-color: var(--buttonColor);
+	border: none;
+	color: #FFF;
+	margin-top: 10px;
+	padding: 10px 0;
+	width: 100%;
+}
+
+.input-field {
+	background-color: var(--secondaryColor);
+	border: 1px solid var(--borderColor);
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 10px 0;
+	width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
