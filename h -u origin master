@@ -1,0 +1,66 @@
+[33mcommit 42be2d8007f2ac72ade00a4d52ec03928349bb85[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: javimatz <jvdelso@gmail.com>
+Date:   Thu Aug 20 09:27:46 2020 +0200
+
+    add: new fonts
+
+[33mcommit d4f50ea3d77a16026840711c6746432b79f8736d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: javimatz <jvdelso@gmail.com>
+Date:   Wed Aug 19 13:36:57 2020 +0200
+
+    delete: theme files
+
+[33mcommit 469c2b8fa690912ab6693cbf56718874c40ccf89[m
+Author: javimatz <jvdelso@gmail.com>
+Date:   Wed Aug 19 13:14:31 2020 +0200
+
+    add: projects section
+
+[33mcommit d89fd978df9cef70401562e297e6d87c1e51a754[m[33m ([m[1;31morigin/v1.2[m[33m, [m[1;32mv1.2[m[33m)[m
+Merge: 83c5663 afcce7f
+Author: javimatz <jvdelso@gmail.com>
+Date:   Thu Aug 6 20:00:58 2020 +0200
+
+    Merge https://github.com/javimatz/simple-portfolio
+
+[33mcommit 83c566332ba650d772e409324acaa584c61e77c1[m
+Author: javimatz <jvdelso@gmail.com>
+Date:   Thu Aug 6 19:58:12 2020 +0200
+
+    add: js file
+
+[33mcommit 1b1589904bad37446c3730c364aa93376300bc05[m
+Author: javimatz <jvdelso@gmail.com>
+Date:   Thu Aug 6 19:57:57 2020 +0200
+
+    add: image files
+
+[33mcommit f1ed391feed5072d3ba73b261403f0ae4d4e96a2[m
+Author: javimatz <jvdelso@gmail.com>
+Date:   Thu Aug 6 19:57:18 2020 +0200
+
+    add: themes css files
+
+[33mcommit 009e3f532a912ef3d5c2b1f0019e8145ccd5e32a[m
+Author: javimatz <jvdelso@gmail.com>
+Date:   Thu Aug 6 19:56:34 2020 +0200
+
+    add: default css file
+
+[33mcommit e754e8bfe5d0f480e2b039768866a52ed9e6a92f[m
+Author: javimatz <jvdelso@gmail.com>
+Date:   Thu Aug 6 19:56:10 2020 +0200
+
+    add: index html page
+
+[33mcommit afcce7f4ac4de27540d42dba652ad6e8309ee741[m
+Author: javimatz <61585674+javimatz@users.noreply.github.com>
+Date:   Fri Jul 24 13:24:53 2020 +0200
+
+    Create README.md
+
+[33mcommit b6af7dbde587c4ffd625523398dc02b8ef155ec3[m
+Author: javimatz <jvdelso@gmail.com>
+Date:   Fri Jul 24 13:19:10 2020 +0200
+
+    page header
