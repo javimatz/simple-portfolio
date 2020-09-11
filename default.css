@@ -62,18 +62,12 @@ h6 { font-size: 16px; }
 
 .main-container {
 	margin: 0 auto;
-	text-align: center;
 	width: 1200px;
-}
-
-.logo {
-	width: 230px;
 }
 
 .greeting-wrapper {
 	align-content: center;
 	display: grid;
-	text-align: center;
 	padding: : 0;
 }
 
@@ -85,45 +79,11 @@ h6 { font-size: 16px; }
 	font-size: 24px;
 }
 
-
-.post-wrapper {
-	display: grid;
-	gap: 20px;
-	grid-template-columns: repeat(auto-fit, 320px);
-	justify-content: center; 
-}
-
-.post {
-
-}
-
-.thumbnail img {
-	width: 200px;
-	border: 10px solid #eee;
-	border-radius: 10px;
-}
-
-/*
-.thumbnail {
-	border: 10px solid #eee;
-	border-radius: 10px;
-}
-*/
-
-.post-preview {
-	background-color: #FFF;
-	padding: 15px;
-}
-
 .post-title {
 	color: black;
 	margin: 0;
 }
 
-.post-intro {
-	color: #4B5256;
-	font-size: 16px;
-}
 
 @media screen and (max-width: 1200px) {
 	.main-container { width: 95%; }
