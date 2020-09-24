@@ -4,111 +4,63 @@
 	<title>Javier Delso Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<meta charset="utf-8">
+
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">   
- 	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"> 	
-	 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap" rel="stylesheet"> 
-
-	<link rel="stylesheet" type="text/css" href="default.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
+	
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"></head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="default.css">
+	
+</head>
 <body>
-	<section class="s1">
-		<div class="main-container">
-			<img class="logo" src="./img/4.png" alt="logo" />
-			<div class="greeting-wrapper">
-				<h1>Javier Delso</h1>
-				<p>Desarrollador Frontend</p>
-				<div>
-					<a href="https://github.com/javimatz/"><i class="fab fa-github fa-2x"></i></a>
-					<a href="https://twitter.com/jvdelso"><i class="fab fa-twitter fa-2x"></i></a>
-				</div>				
-			</div>
-		</div>
-	</section>
 
-	<section class="s1">
-		<div class="main-container">
+	<div class="main-container">
+		
+		<header>
+			<h1 class="title">Javier Delso</h1>
+			<p class="headline">Desarrollador Frontend</p>
+			<!-- <p>Me gusta escribir código, especialmente en Javascript</p>
+			-->
+		</header>
+		
+		<section class="projects">
+			
+			<h2 class="section-title">Proyectos</h2>
+			<article class="project">
+				<h3 class="project-title"><a href="https://appgithubfinder.netlify.com/">Github Finder</a></h3> 
+				<p>Buscador de perfiles que utiliza la API de usuarios de Github.</p>
+			</article>
+			<article class="project">
+				<h3 class="project-title"><a href="https://contact-keeper-506.herokuapp.com//">Contact Keeper</a></h3> 
+				<p>Agenda de contactos desarrollada con React y MongoDB.</p>
+			</article class="project">
+			<article class="project">
+				<h3 class="project-title"><a href="https://pphotogallery.netlify.app//">Photo Gallery</a></h3> 
+				<p>Galeria de fotos desarrollada con React y Firebase.</p>
+			</article>
+			<article class="project">
+				<h3 class="project-title"><a href="https://gihubjobs2.netlify.app/">Github Jobs</a></h3> 
+				<p>Buscador de ofertas de empleo de la Api de empleos de Github.</p>
+			</article>
+			
+		</section>
 
-			<div class="post-wrapper">
-				<div>
-					<div class="post">
-						<div class="thumbnail">
-							<img src="./img/github-finder.png" />
-						</div>
-						<div class="post-preview">
-							<h4 class="post-title">Github Finder</h4>
-							<div>
-								<a href="https://appgithubfinder.netlify.com/"><i class="far fa-eye fa-2x"></i></a>
-								<a href="https://github.com/javimatz/react-github-finder"><i class="fas fa-code fa-2x"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
+		<section class="contact">
+			<h2 class="section-title">Contacto</h2>
+			<p>jvdelso@gmail.com</p>
+			<ul>
+				<li><a class="icon" href="https://github.com/javimatz/"><i class="fab fa-github fa-2x"></i></a></li>
+				<li><a class="icon" href="https://twitter.com/jvdelso"><i class="fab fa-twitter fa-2x"></i></a></li>
+			</ul>					
+			
+		</section>
 
-				<div>
-					<div class="post">
-						<div class="thumbnail">
-							<img src="./img/contact-keeper.png" />
-						</div>
-						<div class="post-preview">
-							<h4 class="post-title">Contact Keeper</h4>
-							<div>
-								<a href="https://contact-keeper-506.herokuapp.com/"><i class="far fa-eye fa-2x"></i></a>
-								<a href="https://github.com/javimatz/react-contact-keeper"><i class="fas fa-code fa-2x"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<div class="thumbnail">
-							<img src="./img/photo-gallery.png" />
-						</div>
-						<div class="post-preview">
-							<h4 class="post-title">Photo Gallery</h4>
-							<div>
-								<a href="https://pphotogallery.netlify.app/"><i class="far fa-eye fa-2x"></i></a>
-								<a href="https://github.com/javimatz/react-photo-gallery"><i class="fas fa-code fa-2x"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<div class="thumbnail">
-							<img src="./img/github-jobs.png" />
-						</div>
-						<div class="post-preview">
-							<h4 class="post-title">Github Jobs</h4>
-							<div>
-								<a href="https://gihubjobs2.netlify.app/"><i class="far fa-eye fa-2x"></i></a>
-								<a href="https://github.com/javimatz/react-github-jobs"><i class="fas fa-code fa-2x"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<div class="thumbnail">
-							<img src="./img/contact-keeper.png" />
-						</div>
-						<div class="post-preview">
-							<h4 class="post-title">It Logger</h4>
-							<div>
-								<a href="https://github.com/javimatz/react-it-logger"><i class="fas fa-code fa-2x"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
-	<script type="text/javascript" src="script.js"></script>	
+	</div>
 </body>
 </html>
