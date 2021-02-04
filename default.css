@@ -58,9 +58,12 @@ span { color: red; }
 
 .section-title { font-weight: 300; }
 
-.projects, .contact { margin: 80px 0; }
+.projects, .contact { margin: 60px 0; }
 
 .project { margin-bottom: 20px; }
+
+.project-title { margin-bottom: 5px; }
+.project-title h3 { display: inline; margin-right: 10px; }
 
 .icon, .icon:hover { border-bottom: none; }
 
